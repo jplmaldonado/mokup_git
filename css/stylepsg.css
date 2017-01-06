@@ -1,0 +1,26 @@
+.banner{
+	height: 150px;
+	background: #324c33;
+}
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse{
+	text-align: center;
+}
+.navpsg{
+	color: white;
+	background: #030;
+}
+.navbar-default .navbar-nav > li > a{ 
+	color: white;
+}
+.navbar-default .navbar-brand{
+	color: white;
+}
+.bgpsg{
+	background: #334d34;
+}
