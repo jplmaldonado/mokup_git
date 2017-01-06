@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/stylepsg.css" type="text/css">
 </head>
 <body>
-	<div class="container-fluid bgpsg">
+	<div class="container-fluid">
 		<header> 
 			<div class="banner">
 			</div>
@@ -21,18 +21,17 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Home</a>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li><a href="#">Institucional</a></li>
-							<li><a href="#">Serviços</a></li>
-							<li><a href="#">Produtos</a></li>
-							<li><a href="#">Clientes</a></li>
-							<li><a href="#">Contato</a></li>
-							<li><a href="#">Trabalhe Conosco</a></li>
-							<li><a href="#">Acesso Usuário</a></li>
+							<li><a href="institucional.php">Institucional</a></li>
+							<li><a href="servicos.php">Serviços</a></li>
+							<li><a href="produtos.php">Produtos</a></li>
+							<li><a href="clientes.php">Clientes</a></li>
+							<li><a href="contato.php">Contato</a></li>
+							<li><a href="trabalheConosco.php">Trabalhe Conosco</a></li>
+							<li><a href="acessoUsuario.php">Acesso Usuário</a></li>
 						</ul>					
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
