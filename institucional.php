@@ -1,49 +1,6 @@
 <?php 
 include("cabecalho.php");
 ?> 
-<style>
-    body{
-        background: #324c33;
-        color: white;
-    }
-
-    .conteudo-principal{
-        text-align: center;        
-    }
-    .iconsdetalhe{
-        width: 100px;        
-        background: white;
-        padding: 20px;
-        border-radius: 30px; 
-    }
-
-    .institucional{
-        background: none;
-    }
-    .institucional h1{
-        font-size: 30pt;
-    }
-
-    .institucional div{
-        margin-top: 40px;
-    }
-
-    .institucional button{
-        margin-top: 40px;
-    }   
-
-
-    @media screen and (min-width: 992px) {
-        .content-aside{
-            width: 60%;
-            margin:auto;
-        }
-    }
-
-</style>
-
-
-
 <div class="container conteudo-principal">
     <div class="jumbotron institucional">
         <h1> PSG Tecnologia Aplicada </h1>
@@ -59,9 +16,9 @@ include("cabecalho.php");
                 <h4>Galeria de Fotos</h4>
             </div>
         </div>
-
-        <button class="btn btn-success">Entre em Contato
-        </button>
+        <form action="contato.php">
+        <button class="btn btn-success" href="contato.php">Entre em Contato</button>
+        </form>
     </div>
 </div>
 

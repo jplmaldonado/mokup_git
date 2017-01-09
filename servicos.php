@@ -12,7 +12,7 @@ include_once("cabecalho.php");
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
+  <div id="carousselBanner" class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="img/banner.jpg">
       <div class="carousel-caption">

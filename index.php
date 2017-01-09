@@ -1,55 +1,14 @@
 <?php
 include_once("cabecalho.php");
 ?>
-
-<style>
-    .conteudo-principal{
-        text-align: center;
-
-    }
-    
-    .video{        
-        width:65%;        
-        margin: 0px auto;
-    }
-
-    @media screen and (min-width: 768px) {
-        .video{        
-            width: 75%;        
-            margin: 0px auto;
-        } 
-    }
-
-    @media screen and (min-width: 992px) {
-        .video{        
-            width: 35%;        
-            margin: 0px auto;
-        }
-    }
-
-    .orcamento{
-        display: block;
-        float: right;
-        margin-right: 10px;        
-        margin-bottom: 30px;
-    }
-    
-    .newsletter{
-        margin-top: 30px;        
-    }
-    .newsletter div{
-        margin-top: 5px;
-    }
-
-
-</style>
-
 <div class="container conteudo-principal">
     <div class="row">
         <div class="orcamento">
+        <form action="contato.php">
             <button class="btn btn-success">
                 SOLICITE UM ORÇAMENTO
             </button>
+        </form>
         </div>
     </div>
 
