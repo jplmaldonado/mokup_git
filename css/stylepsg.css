@@ -1,3 +1,11 @@
+a{
+    color: aliceblue;
+}
+a:hover{
+    color: #030;    
+    text-decoration: none;
+}
+
 .banner{
 	height: 150px;
 	background: #324c33;
@@ -42,8 +50,15 @@ body{
 	margin-left: 10%;
 }
 .boxAcessoUsuario{
-	text-align: center;
+	text-align: center;    
 }
+
+.boxAcessoUsuario .row {
+    width: 60%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
 /* BOOTSTRAP //////////////////////  */
 .form-control{
 	width: 75%;
