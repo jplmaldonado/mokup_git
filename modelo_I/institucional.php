@@ -1,7 +1,7 @@
 <?php 
 include("cabecalho.php");
 ?> 
-<div id="master">
+<div id="master-institucional">
     <div class="container conteudo-principal"
          style="background:#7ED595;">
         <div class="jumbotron institucional">
