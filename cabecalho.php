@@ -11,6 +11,7 @@
 	<div class="container-fluid">
 		<header> 
 			<div class="banner">
+			<img src="img/logopsg.png"/>
 			</div>
 			<nav class="navbar navbar-default">
 				<div class="container-fluid navpsg">			

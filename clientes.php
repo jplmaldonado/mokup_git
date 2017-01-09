@@ -1,50 +1,6 @@
 <?php
 include_once("cabecalho.php");
 ?>
-<style>
-    body{
-        background: #324c33;
-        color: white;
-    }
-
-    .conteudo-principal{
-        text-align: center;        
-    }
-
-    .container-clientes-certificacoes{
-        background: white;
-        color: #5d9753;
-        padding: 20px;
-    }
-
-    .container-clientes-certificacoes hr{
-        color: gray;
-        border-top:1px solid #777777;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .clientes ul{
-        margin-top: 20px;
-        list-style: none;        
-    }
-
-    .clientes li{
-        display: inline-block; 
-    }
-
-    .certificacoes ul{
-        margin-top: 20px;
-        list-style: none;
-    }
-
-    .certificacoes li{
-        display: inline-block; 
-    }
-
-</style>
-
-
 <div class="container">
     <div class="conteudo-principal">
 

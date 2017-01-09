@@ -5,6 +5,7 @@ include_once("cabecalho.php");
 
 <div class="container">
 <h2>Produtos</h2>
+<div class="carousel-psg">
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -16,21 +17,21 @@ include_once("cabecalho.php");
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="img/bannerBusiness.jpg">
+      <img src="img/download.jpg">
       <div class="carousel-caption">
         <h3>Breve Texto Produto 1</h3>
         <p><a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a></p>
       </div>
     </div>
     <div class="item">
-      <img src="img/bannerBusiness.jpg">
+      <img src="img/download.jpg">
       <div class="carousel-caption">
         <h3>Breve Texto Produto 2</h3>
         <p><a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a></p>
       </div>
     </div>
     <div class="item">
-      <img src="img/bannerBusiness.jpg">
+      <img src="img/download.jpg">
       <div class="carousel-caption">
         <h3>Breve Texto Produto 3</h3>
         <p><a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a></p>
@@ -57,14 +58,17 @@ include_once("cabecalho.php");
       </div>
       <div class="modal-body">
        <p>- Texto Explicativo produto</p><br/>
-       <img src="img/ic_play.png"/>
-       <img src="img/ic_photos.png"/>
+       <div class="items-modal">
+       <img src="img/play-button.png"/>
+       <img src="img/photo-camera.png"/>
+     </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-warning" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-success" data-dismiss="modal">Fechar</button>
       </div>
     </div>
   </div>
+</div>
 </div>
 </div>
 
