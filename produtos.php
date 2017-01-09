@@ -4,7 +4,7 @@ include_once("cabecalho.php");
 
 
 <div class="container">
-<h1>Produtos</h1>
+<h2>Produtos</h2>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -16,24 +16,24 @@ include_once("cabecalho.php");
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="img/banner.jpg" alt="...">
+      <img src="img/bannerBusiness.jpg">
       <div class="carousel-caption">
-        <h1>Breve Texto Produto 1...</h1>
-        <a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a>
+        <h3>Breve Texto Produto 1</h3>
+        <p><a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a></p>
       </div>
     </div>
     <div class="item">
-      <img src="img/banner.jpg" alt="...">
+      <img src="img/bannerBusiness.jpg">
       <div class="carousel-caption">
-        <h1>Breve Texto Produto 2...</h1>
-        <a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a>
+        <h3>Breve Texto Produto 2</h3>
+        <p><a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a></p>
       </div>
     </div>
     <div class="item">
-      <img src="img/banner.jpg" alt="...">
+      <img src="img/bannerBusiness.jpg">
       <div class="carousel-caption">
-        <h1>Breve Texto Produto 3...</h1>
-        <a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a>
+        <h3>Breve Texto Produto 3</h3>
+        <p><a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a></p>
       </div>
     </div>
   </div>
@@ -56,7 +56,9 @@ include_once("cabecalho.php");
         <h4 class="modal-title" id="myModalLabel">Produtos</h4>
       </div>
       <div class="modal-body">
-       <p>- Texto Explicativo produto</p>
+       <p>- Texto Explicativo produto</p><br/>
+       <img src="img/ic_play.png"/>
+       <img src="img/ic_photos.png"/>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-warning" data-dismiss="modal">Fechar</button>

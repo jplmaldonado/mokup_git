@@ -3,7 +3,7 @@ include_once("cabecalho.php");
 ?>
 
 <div class="container">
-<h1>Serviços</h1>
+<h2>Serviços</h2>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -11,27 +11,26 @@ include_once("cabecalho.php");
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
-
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="img/banner.jpg" alt="...">
+      <img src="img/banner.jpg">
       <div class="carousel-caption">
-        <h1>Digitalização</h1>
+        <h3>Digitalização</h3>
         <a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a>
       </div>
     </div>
     <div class="item">
-      <img src="img/banner.jpg" alt="...">
+      <img src="img/banner.jpg">
       <div class="carousel-caption">
-        <h1>Microfilmagem</h1>
+        <h3>Microfilmagem</h3>
         <a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a>
       </div>
     </div>
     <div class="item">
-      <img src="img/banner.jpg" alt="...">
+      <img src="img/banner.jpg">
       <div class="carousel-caption">
-        <h1>Arquivo</h1>
+        <h3>Arquivo</h3>
         <a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a>
       </div>
     </div>
@@ -53,11 +52,12 @@ include_once("cabecalho.php");
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel">Serviços</h4>
       </div>
       <div class="modal-body">
-        <h3>Video</h2>
-        <h3>Galeria</h2>
+       <p>Texto Explicativo sobre o Serviço</p><br/>
+       <img src="img/ic_play.png"/>
+       <img src="img/ic_photos.png"/>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-warning" data-dismiss="modal">Fechar</button>

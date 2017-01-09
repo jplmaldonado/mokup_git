@@ -31,7 +31,7 @@
 textarea{
 	height:120px;
 }
-h1{
+h1, h2, h3, h4{
 	text-align: center;
 }
 body{
@@ -41,7 +41,10 @@ body{
 .formulario{
 	margin-left: 10%;
 }
-/* BOOTSTRAP */
+.boxAcessoUsuario{
+	text-align: center;
+}
+/* BOOTSTRAP //////////////////////  */
 .form-control{
 	width: 75%;
 }
@@ -50,4 +53,7 @@ body{
 }
 .navbar-default{
 	border: none;
+}
+.modal{
+	color: black;
 }

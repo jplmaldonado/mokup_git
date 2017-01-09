@@ -79,7 +79,7 @@ include_once("cabecalho.php");
             <input class="form-control" type="text" placeholder="Cidade-UF">
         </div>
         <div class="col-sm-1 col-md-1 ">
-            <input class="btn" type="submit" placeholder="Cidade-UF">
+            <input class="btn btn-success" type="submit" placeholder="Cidade-UF">
         </div>
     </div>
 </div>
