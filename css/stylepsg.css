@@ -24,11 +24,30 @@
 .bgpsg{
 	background: #334d34;
 }
-
 .container-fluid{
 	padding-right: 0;
 	padding-left: 0;
 }
- a:hover{
-	background: red; 
- }
+textarea{
+	height:120px;
+}
+h1{
+	text-align: center;
+}
+body{
+	background: #324c33;
+	color: white;
+}
+.formulario{
+	margin-left: 10%;
+}
+/* BOOTSTRAP */
+.form-control{
+	width: 75%;
+}
+.modal-header{
+	background: #fff4c8;
+}
+.navbar-default{
+	border: none;
+}
