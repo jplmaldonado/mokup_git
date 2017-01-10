@@ -23,12 +23,15 @@ hr {
 }
 .detalhesProdutos{
 	background: white;
-	color: #6193A4;
+	color: green;
 	text-align: center;
 	width: 60%;
 	border-radius: 5px;
 	margin: 0px auto;
 	vertical-align: center;
+}
+.detalhesProdutos h2{
+    padding-top: 5%;
 }
 .detalhesProdutos a{
 	color: black;
@@ -137,20 +140,13 @@ body{
 	margin-top: 5px;
 }
 .container-clientes-certificacoes{
-	background: white;
-	color: #5d9753;
+	color: white;
 	padding: 20px;
 }
-.container-clientes-certificacoes hr{
-	color: gray;
-	border-top:1px solid #777777;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
 .clientes ul{
 	margin-top: 20px;
-	list-style: none;        
+	list-style: none;  
+    background: white;      
 }
 
 .clientes li{
@@ -160,6 +156,7 @@ body{
 .certificacoes ul{
 	margin-top: 20px;
 	list-style: none;
+    background: white;
 }
 
 .certificacoes li{
@@ -175,16 +172,21 @@ body{
 	margin: 0px auto;
 	width: 60%;
 }
-
+.carousel-caption{
+    color: #548002;
+}
+.carousel-caption a{
+    color: #58810a;
+}
 .carousel-psg img{
 	margin: 0px auto;
 }
 .carousel-psg .carousel-inner{
 	
 }
-.items-modal {
+.item-modal {
 	margin: 0px auto;
-	text-align: center;
+    text-align: center;
 }
 .navbar-default .navbar-toggle{
 	border: none;
@@ -192,11 +194,60 @@ body{
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-background-color: #003300;
+    background-color: #003300;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
 }
+/* tratamento galeria */
+div.imgGalery {
+    border: 1px solid #ccc;
+    background: white;
+}
+.modal-body img{
+    max-width: 100%;
+}
+div.imgGalery:hover {
+    border: 1px solid #777;
+}
+
+div.imgGalery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: green;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsiveImg {
+    padding: 0 6px;
+    padding-bottom: 6px;
+    float: left;
+    width: 24.99999%;
+}
+/* ///////galeria queries///////// */ 
+@media only screen and (max-width: 700px){
+    .responsiveImg {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsiveImg {
+        width: 100%;
+    }
+}
+/* ///////end galeria///////// */ 
+
+/* ///////video queries///////// */ 
 @media screen and (min-width: 768px) {
 	.video{        
 		width: 75%;        
@@ -212,4 +263,10 @@ background-color: #003300;
 		width: 60%;
 		margin:auto;
 	}
+}
+@media screen and (min-width: 600px) {
+    .video{        
+        width: 55%;        
+        margin: 0px auto;
+    } 
 }

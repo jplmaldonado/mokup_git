@@ -3,7 +3,7 @@ include_once("cabecalho.php");
 ?>
 
 <div class="container">
-  <h2>Serviços</h2>
+  <h2>Serviços - modelo 2</h2>
   <div class="carousel-psg">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
@@ -16,24 +16,30 @@ include_once("cabecalho.php");
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="img/download.jpg" alt="...">
+          <img src="img/teste.jpg" alt="...">
           <div class="carousel-caption">
-            <h3>Breve Texto Produto 1</h3>
-            <p><a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a></p>
+            <img src="img/printer.png"/>
+            <h3>Digitalização</h3>
+            <p> Convertemos os documentos fisicos para o digital.</p>
+            <p><a href="mais-detalhes-servicos.php">+ Mais Detalhes</a></p>
           </div>
         </div>
         <div class="item">
-          <img src="img/download.jpg" alt="...">
+          <img src="img/teste.jpg" alt="...">
           <div class="carousel-caption">
-            <h3>Breve Texto Produto 1</h3>
-            <p><a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a></p>
+          <img src="img/film.png"/>
+            <h3>Microfilmagem</h3>
+            <p> Armazenamos e conservamos os documentos em filmes.</p>
+            <p><a href="mais-detalhes-servicos.php">+ Mais Detalhes</a></p>
           </div>
         </div>
         <div class="item">
-          <img src="img/download.jpg" alt="...">
+          <img src="img/teste.jpg" alt="...">
           <div class="carousel-caption">
-            <h3>Breve Texto Produto 1</h3>
-            <p><a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a></p>
+            <img src="img/folder.png"/>
+            <h3>Arquivo</h3>
+            <p>Breve texto explicativo sobre o serviço</p>
+            <p><a href="mais-detalhes-servicos.php">+ Mais Detalhes</a></p>
           </div>
         </div>
       </div>
