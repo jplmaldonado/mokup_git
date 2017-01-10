@@ -34,7 +34,9 @@ include_once("cabecalho.php");
                 </div>
             </div>
             <div class="col-md-6"> 
-                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-54.58203077316284%2C-20.44541086409846%2C-54.56559419631959%2C-20.43320606478465&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+
+                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-54.5857858657837%2C-20.4453907581419%2C-54.56183910369874%2C-20.433246279882233&amp;layer=mapnik&amp;marker=-20.43931863892855%2C-54.57381248474121" style="border: 1px solid black"></iframe>
+
             </div>
         </div>
 
