@@ -4,7 +4,8 @@ include_once("cabecalho.php");
 
 
 <div class="container">
-<h2>Produtos</h2>
+<div class="conteudo-principal">
+<h2>Produtos - modelo 2</h2>
 <div class="carousel-psg">
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -17,21 +18,21 @@ include_once("cabecalho.php");
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="img/download.jpg">
+      <img src="img/teste.jpg">
       <div class="carousel-caption">
         <h3>Breve Texto Produto 1</h3>
         <p><a href="mais-detalhes-produtos.php" >Mais Detalhes</a></p>
       </div>
     </div>
     <div class="item">
-      <img src="img/download.jpg">
+      <img src="img/teste.jpg">
       <div class="carousel-caption">
         <h3>Breve Texto Produto 2</h3>
         <p><a href="mais-detalhes-produtos.php" >Mais Detalhes</a></p>
       </div>
     </div>
     <div class="item">
-      <img src="img/download.jpg">
+      <img src="img/teste.jpg">
       <div class="carousel-caption">
         <h3>Breve Texto Produto 3</h3>
         <p><a href="mais-detalhes-produtos.php" >Mais Detalhes</a></p>
@@ -47,6 +48,7 @@ include_once("cabecalho.php");
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
 </div>
 </div>
 
