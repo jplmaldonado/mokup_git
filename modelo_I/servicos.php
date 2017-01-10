@@ -9,16 +9,19 @@ include_once("cabecalho.php");
             <li><img src="img/printer-.png"/>
                 <h4>DIGITALIZAÇÃO</h4>
                 <p>Convertemos aquivos físicos para digital.</p>
+                <a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a>
             </li>
 
-            <li><img src="img/printer-.png"/>
-                <h4>DIGITALIZAÇÃO</h4>
-                <p>Convertemos aquivos físicos para digital.</p>
+            <li><img src="img/film-roll.png"/>
+                <h4>MICROFILMAGEM</h4>
+                <p>Armazenamos e conservamos os documentos em filmes.</p>
+                <a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a>
             </li>
-            
-            <li><img src="img/printer-.png"/>
-                <h4>DIGITALIZAÇÃO</h4>
-                <p>Convertemos aquivos físicos para digital.</p>
+
+            <li><img src="img/folder.png"/>
+                <h4>ARQUIVO</h4>
+                <p>Breve texto sobre este serviço.</p>
+                <a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a>
             </li>
         </ul>
 
@@ -34,8 +37,16 @@ include_once("cabecalho.php");
                     <div class="modal-body">
                         <p>Texto Explicativo sobre o Serviço</p><br/>
                         <div class="items-modal">
-                            <img src="img/play-button.png"/>
-                            <img src="img/photo-camera.png"/>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="img/play-button.png"/>
+                                    <h4>Videos</h4>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img src="img/photo-camera.png"/>
+                                    <h4>Galeria</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="modal-footer">

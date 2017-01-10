@@ -14,39 +14,21 @@
     margin-top: -20px;
 }
 #master-servicos ul{
-    list-style: none;
-    margin: 0px auto;
+    list-style: none;    
     text-align: center;
+    align-items: stretch;
 }
 
-#master-servicos li{
+#master-servicos li{    
     display: inline-block;
-    text-align: center;    
+    vertical-align: top;    
+    padding: 10px;
 }
 
+#master-servicos li p{
+    max-width: 150px;
+}
 
-
-
-a{
-    color: white;
-    text-decoration: none;
-}
-a:link{
-    color: white;
-    text-decoration: none;	
-}
-a:hover{	
-    color: lightgreen;
-    text-decoration: none;
-}
-a:visited{
-    color: white;
-    text-decoration: none;
-}
-a:active{
-    color: lightgreen;
-    text-decoration: none;
-}
 .banner{
     height: 120px;
     background: #324c33;
@@ -203,6 +185,10 @@ body{
     margin: 0px auto;
     text-align: center;
 }
+.items-modal img {
+    width: 70px;    
+}
+
 .navbar-default .navbar-toggle{
     border: none;
 }
