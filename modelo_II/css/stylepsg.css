@@ -1,215 +1,221 @@
 a{
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 a:link{
-	color: white;
-	text-decoration: none;	
+    color: white;
+    text-decoration: none;	
 }
 a:hover{	
-	color: lightgreen;
-	text-decoration: none;
+    color: lightgreen;
+    text-decoration: none;
 }
 a:visited{
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 a:active{
-	color: lightgreen;
-	text-decoration: none;
+    color: lightgreen;
+    text-decoration: none;
 }
 hr {
-  border-top: 1px solid #cacaca;
+    border-top: 1px solid #cacaca;
 }
 .detalhesProdutos{
-	background: white;
-	color: #6193A4;
-	text-align: center;
-	width: 60%;
-	border-radius: 5px;
-	margin: 0px auto;
-	vertical-align: center;
+    background: white;
+    color: #6193A4;
+    text-align: center;
+    width: 60%;
+    border-radius: 5px;
+    margin: 0px auto;
+    vertical-align: center;
 }
 .detalhesProdutos a{
-	color: black;
+    color: black;
 }
 .banner{
-	height: 120px;
-	background: #324c33;
-	background-image: url(../img/psg.jpg);
-	text-align: center;
+    height: 120px;
+    background: #324c33;
+    background-image: url(../img/psg.jpg);
+    text-align: center;
 }
 .banner img{
-	margin-top: 8px;
+    margin-top: 8px;
 }
 .navbar .navbar-nav {
-	display: inline-block;
-	float: none;
-	vertical-align: top;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
 }
 .navbar .navbar-collapse{
-	text-align: center;
+    text-align: center;
 }
 .navpsg{
-	color: white;
-	background: #030;
+    color: white;
+    background: #030;
 }
 .navbar-default .navbar-nav > li > a{ 
-	color: white;
+    color: white;
 }
 .navbar-default .navbar-brand{
-	color: white;
+    color: white;
 }
 .bgpsg{
-	background: #334d34;
+    background: #334d34;
 }
 .container-fluid{
-	padding-right: 0;
-	padding-left: 0;
+    padding-right: 0;
+    padding-left: 0;
 }
 textarea{
-	height:120px;
+    height:120px;
 }
 h1, h2, h3, h4{
-	text-align: center;
+    text-align: center;
 }
 body{
-	background: #324c33;
-	color: white;
-}
-
-.formulario{
-	margin-left: 10%;
+    background: #324c33;
+    color: white;
 }
 .boxAcessoUsuario{
-	text-align: center;
-}
-
-.form-control{
-	width: 75%;
+    text-align: center;
 }
 .modal-header{
-	background: #b5d2ac;
+    background: #b5d2ac;
 }
 .navbar-default{
-	border: none;
+    border: none;
 }
 .navbar-default .navbar-nav > li > a:hover{ 
-	background-color: white;
+    background-color: white;
 }
 
 .modal{
-	color: black;
+    color: black;
 }
 .conteudo-principal{
-	text-align: center;        
+    text-align: center;        
 }
 .iconsdetalhe{
-	width: 100px;        
-	background: white;
-	padding: 20px;
-	border-radius: 30px; 
+    width: 100px;        
+    background: white;
+    padding: 20px;
+    border-radius: 30px; 
 }
 .institucional{
-	background: none;
+    background: none;
 }
 .institucional h1{
-	font-size: 30pt;
+    font-size: 30pt;
 }
 
 .institucional div{
-	margin-top: 40px;
+    margin-top: 40px;
 }
 
 .institucional button{
-	margin-top: 40px;
+    margin-top: 40px;
 }   
 .orcamento{
-	display: block;
-	float: right;
-	margin-right: 10px;        
-	margin-bottom: 30px;
+    display: block;
+    float: right;
+    margin-right: 10px;        
+    margin-bottom: 30px;
 }
 .newsletter{
-	margin-top: 30px;        
+    margin-top: 30px;        
 }
 .newsletter div{
-	margin-top: 5px;
+    margin-top: 5px;
 }
 .container-clientes-certificacoes{
-	background: white;
-	color: #5d9753;
-	padding: 20px;
+    background: white;
+    color: #5d9753;
+    padding: 20px;
 }
 .container-clientes-certificacoes hr{
-	color: gray;
-	border-top:1px solid #777777;
-	margin-left: 10px;
-	margin-right: 10px;
+    color: gray;
+    border-top:1px solid #777777;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .clientes ul{
-	margin-top: 20px;
-	list-style: none;        
+    margin-top: 20px;
+    list-style: none;        
 }
 
 .clientes li{
-	display: inline-block; 
+    display: inline-block; 
 }
 
 .certificacoes ul{
-	margin-top: 20px;
-	list-style: none;
+    margin-top: 20px;
+    list-style: none;
 }
 
 .certificacoes li{
-	display: inline-block; 
+    display: inline-block; 
 }
 
 .video{        
-	width:65%;        
-	margin: 0px auto;
+    width:65%;        
+    margin: 0px auto;
 }
 
 .carousel-psg{
-	margin: 0px auto;
-	width: 60%;
+    margin: 0px auto;
+    width: 60%;
 }
 
 .carousel-psg img{
-	margin: 0px auto;
+    margin: 0px auto;
 }
 .carousel-psg .carousel-inner{
-	
+
 }
 .items-modal {
-	margin: 0px auto;
-	text-align: center;
+    margin: 0px auto;
+    text-align: center;
 }
 .navbar-default .navbar-toggle{
-	border: none;
+    border: none;
 }
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-background-color: #003300;
+    background-color: #003300;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
 }
+
+.contato{
+    text-align: center;    
+}
+
+.contato .iframeContato {
+    float: right;
+    width: 100%;
+    height: 320px;
+}
+.contato button{
+    width: 20%;
+}
+
 @media screen and (min-width: 768px) {
-	.video{        
-		width: 75%;        
-		margin: 0px auto;
-	} 
+    .video{        
+        width: 75%;        
+        margin: 0px auto;
+    } 
 }
 @media screen and (min-width: 992px) {
-	.video{        
-		width: 35%;        
-		margin: 0px auto;
-	}
-	.content-aside{
-		width: 60%;
-		margin:auto;
-	}
+    .video{        
+        width: 35%;        
+        margin: 0px auto;
+    }
+    .content-aside{
+        width: 60%;
+        margin:auto;
+    }
 }
