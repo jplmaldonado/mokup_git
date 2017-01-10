@@ -1,11 +1,16 @@
 <?php
 include_once("cabecalho.php");
 ?>
+
+<style>
+
+</style>
+
 <div class="container">
     <h1>Contato</h1>
     <form class="form-horizontal contato">
         <div class="row">        
-            <div class="col-md-6">
+            <div class="col-md-6 col-md-offset-3">
                 <div class="formulario">
                     <div class="form-group">
                         <label class="control-label col-sm-2" for="email">Nome:</label>
@@ -32,16 +37,16 @@ include_once("cabecalho.php");
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6"> 
-
-                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-54.57029342651368%2C-20.44082663794142%2C-54.56207513809205%2C-20.434754338450784&amp;layer=mapnik&amp;marker=-20.437790518173376%2C-54.566184282302856" style="border: 1px solid black"></iframe>
-
-            </div>
+            </div>            
         </div>
-
         <button type="submit" class="btn btn-success">Enviar</button>
-    </form>
+    </form>    
+</div>
+
+<iframe class="iframeContato" frameborder="0" scrolling="no" scrollwheel="false" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-54.57029342651368%2C-20.44082663794142%2C-54.56207513809205%2C-20.434754338450784&amp;layer=mapnik&amp;marker=-20.437790518173376%2C-54.566184282302856" ></iframe>
+
+<div class="container conteudo-principal">    
+    <h5>Av. Hiroshima, 957 - Carandá Bosque</h5>
 </div>
 
 <?php
