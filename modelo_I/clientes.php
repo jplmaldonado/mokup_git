@@ -16,8 +16,6 @@ include_once("cabecalho.php");
                 </ul>
             </div>
 
-            <hr>
-
             <div class="certificacoes">
                 <h3>Certificações</h3>
                 <ul>

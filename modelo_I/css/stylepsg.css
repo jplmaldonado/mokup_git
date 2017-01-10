@@ -138,21 +138,12 @@ body{
 .newsletter div{
     margin-top: 5px;
 }
-.container-clientes-certificacoes{
-    background: white;
-    color: #5d9753;
-    padding: 20px;
-}
-.container-clientes-certificacoes hr{
-    color: gray;
-    border-top:1px solid #777777;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 .clientes ul{
+    background: white;
     margin-top: 20px;
-    list-style: none;        
+    list-style: none;   
+    padding: 30px;
 }
 
 .clientes li{
@@ -160,12 +151,19 @@ body{
 }
 
 .certificacoes ul{
+    background: white;
     margin-top: 20px;
     list-style: none;
+    padding: 30px;
 }
 
 .certificacoes li{
     display: inline-block; 
+}
+
+.certificacoes img{
+    margin: 10px;
+    width: 80px;
 }
 
 .video{        
