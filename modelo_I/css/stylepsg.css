@@ -15,8 +15,7 @@
 }
 #master-servicos ul{
     list-style: none;    
-    text-align: center;
-    align-items: stretch;
+    text-align: center;    
 }
 
 #master-servicos li{    
@@ -27,6 +26,10 @@
 
 #master-servicos li p{
     max-width: 150px;
+}
+
+#master-servicos li a{
+    color:#030;
 }
 
 .banner{
@@ -170,17 +173,34 @@ body{
     margin: 0px auto;
 }
 
-.carousel-psg{
-    margin: 0px auto;
-    width: 60%;
+.container-produtos{
+    background: white;
+    color: #030;
 }
 
-.carousel-psg img{
-    margin: 0px auto;
+.container-produtos ul{
+    margin-top: 60px;
+    list-style: none;
+    text-align: center;
 }
-.carousel-psg .carousel-inner{
 
+.container-produtos ul li{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;    
 }
+
+.container-produtos ul li img{
+    width: 80px;
+    border-radius: 100px;       
+}
+.container-produtos a {
+    color: #030;
+}
+
+
 .items-modal {
     margin: 0px auto;
     text-align: center;

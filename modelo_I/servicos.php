@@ -9,19 +9,19 @@ include_once("cabecalho.php");
             <li><img src="img/printer-.png"/>
                 <h4>DIGITALIZAÇÃO</h4>
                 <p>Convertemos aquivos físicos para digital.</p>
-                <a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a>
+                <a href="#" data-toggle="modal" data-target="#myModal">+ Mais Detalhes</a>
             </li>
 
             <li><img src="img/film-roll.png"/>
                 <h4>MICROFILMAGEM</h4>
                 <p>Armazenamos e conservamos os documentos em filmes.</p>
-                <a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a>
+                <a href="#" data-toggle="modal" data-target="#myModal">+ Mais Detalhes</a>
             </li>
 
             <li><img src="img/folder.png"/>
                 <h4>ARQUIVO</h4>
                 <p>Breve texto sobre este serviço.</p>
-                <a href="#" data-toggle="modal" data-target="#myModal">Mais Detalhes</a>
+                <a href="#" data-toggle="modal" data-target="#myModal">+ Mais Detalhes</a>
             </li>
         </ul>
 
