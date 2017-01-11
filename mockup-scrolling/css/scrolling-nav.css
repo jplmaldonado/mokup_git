@@ -1,0 +1,170 @@
+/*!
+* Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+* Copyright 2013-2016 Start Bootstrap
+* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+*/
+
+body { 
+    width: 100%;
+    height: 100%;    
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/* Efeito hover img 
+.hover figure img { 
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.hover figure:hover img {
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
+}
+
+*/
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. 
+
+display: flex;    
+align-items: center;
+
+
+*/
+
+section {    
+    text-align: center;    
+}
+
+.section-home{    
+    padding-top: 150px;
+    background-image: url("../img/laptop-notebook-clean-hero.jpg") ;
+
+    /* Set a specific height */
+    height: 70%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*  Text */    
+    color: white;
+}
+.section-newsletter{    
+    padding: 25px;
+
+}
+
+.section-newsletter .form-control{
+    margin: 5px;        
+}
+
+.section-newsletter a{
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.section-newsletter iframe{
+    margin: 20px auto; 
+}
+
+.section-institucional{
+    padding-top: 50px;
+    background: #17281F;
+    color: white;
+}
+
+.section-institucional ul{
+    list-style: none;    
+}
+
+.section-institucional li{
+    width: 27%;        
+    height: 500px;
+    display: inline-block;    
+
+    -webkit-transform: skew(-10deg); 
+    -moz-transform: skew(-10deg); 
+    -o-transform: skew(-10deg); 
+    background: #66CC99; 
+
+}
+
+.section-institucional figure {	
+    width: 100%;
+    height: 500px;
+
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+
+.section-sobre{
+    background: #c6c6c6;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    
+}
+
+.section-institucional figure img{    
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+}
+
+
+.section-institucional figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.section-institucional h2{
+    font-size: 25pt;
+}
+
+.section-institucional p{
+    font-size: 13pt;
+}
+
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-newsletter{           
+        display: flex;    
+        align-items: center;
+    }
+
+    .section-newsletter iframe{
+        padding: 0px;
+    }
+
+}
+
