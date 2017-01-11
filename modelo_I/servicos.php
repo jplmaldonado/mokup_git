@@ -39,12 +39,16 @@ include_once("cabecalho.php");
                         <div class="items-modal">
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <img src="img/play-button.png"/>
-                                    <h4>Videos</h4>
+                                    <a href="galeria-servicos.php" >
+                                        <img src="img/play-button.png"/>
+                                        <h4>Videos</h4>
+                                    </a>
                                 </div>
                                 <div class="col-sm-6">
-                                    <img src="img/photo-camera.png"/>
-                                    <h4>Galeria</h4>
+                                    <a href="galeria-servicos.php" >
+                                        <img src="img/photo-camera.png"/>
+                                        <h4>Galeria</h4>
+                                    </a>
                                 </div>
                             </div>
                         </div>
