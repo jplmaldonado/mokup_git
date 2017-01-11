@@ -3,7 +3,6 @@ include_once("cabecalho.php");
 ?>
 <div class="container">
     <div class="conteudo-principal">
-        <div class="container-clientes-certificacoes">
             <div class="clientes">
                 <h3>Clientes</h3>
                 <ul>
@@ -24,9 +23,20 @@ include_once("cabecalho.php");
                 </ul>
             </div>
         </div>
-
     </div>
 </div>
+<style>
+.certificacoes ul{
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 4px;
+}
+.clientes ul{
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 4px;
+}
+</style>
 
 <?php
 include_once("rodape.php");

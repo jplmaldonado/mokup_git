@@ -1,7 +1,7 @@
 <?php
 include_once("cabecalho.php");
 ?>
-<div class="container">
+<div id="boxAcessoUsuario" class="container">
     <div class="boxAcessoUsuario">
         <h2><img src="img/padlock.png"/> Acesso Usuário</h2>
         <br/>

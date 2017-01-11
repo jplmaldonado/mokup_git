@@ -21,6 +21,7 @@ a:active{
 hr {
     border-top: 1px solid #cacaca;
 }
+
 .detalhesProdutos{
     background: white;
     color: #6193A4;
@@ -98,7 +99,7 @@ body{
 }
 .iconsdetalhe{
     width: 100px;        
-    background: white;
+    background: #fffec9;
     padding: 20px;
     border-radius: 30px; 
 }
@@ -171,9 +172,13 @@ body{
 .carousel-psg img{
     margin: 0px auto;
 }
-.carousel-psg .carousel-inner{
-
+.carousel-caption{
+    color: #3e763d;
 }
+.carousel-caption a{
+    color: #3c763d;
+}
+
 .items-modal {
     margin: 0px auto;
     text-align: center;
@@ -202,7 +207,17 @@ body{
 .contato button{
     width: 20%;
 }
-
+#boxInstitucional p{
+    font-size: 15px;
+    color: #636363;
+}
+#boxInstitucional img{
+    border-radius: 4px;
+}
+#rowInstitucional{
+    background-color: white;
+    border-radius: 8px;
+}
 @media screen and (min-width: 768px) {
     .video{        
         width: 75%;        
@@ -211,7 +226,7 @@ body{
 }
 @media screen and (min-width: 992px) {
     .video{        
-        width: 35%;        
+        width: 55%;        
         margin: 0px auto;
     }
     .content-aside{

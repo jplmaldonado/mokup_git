@@ -1,14 +1,9 @@
 <?php
 include_once("cabecalho.php");
 ?>
-
-<style>
-
-</style>
-
-<div class="container">
+<div class="container-fluid">
     <h1>Contato</h1>
-    <form class="form-horizontal contato">
+    <form id="formularioContato" class="form-horizontal contato">
         <div class="row">        
             <div class="col-md-6 col-md-offset-3">
                 <div class="formulario">

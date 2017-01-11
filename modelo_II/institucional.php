@@ -2,10 +2,19 @@
 include("cabecalho.php");
 ?> 
 <div class="container conteudo-principal">
-    <div class="jumbotron institucional">
+    <div id="boxInstitucional" class="institucional">
         <h1> PSG Tecnologia Aplicada </h1>
         <hr>
-        <h3>Texto sobre a empresa + Diretrizes estratégicas</h3>        
+    <div id="rowInstitucional" class="row">
+        <div class="col-md-6">
+        <p align="left">A PSG Tecnologia Aplicada Ltda é uma empresa consolidada, atuante no mercado de prestação de serviços há mais de 10 anos. Tem como principal segmento de atuação o ramo da informática, desenvolvendo soluções em TI para o Setor Público.<br/>
+        
+        <br/>Com sua experiência e capacidade ao longo desses anos, a PSG vem se destacando em sua trajetória de sucesso, acompanhando as tendências e inovações tecnológicas através de produtos líderes de mercado para desenvolver soluções eficazes e garantir aos seus clientes a plena satisfação.<br/>
+        <br/>A PSG conta com uma equipe técnica altamente qualificada, com experiência reconhecida na área de TI, totalmente aptos à prestação de serviços de altíssimo nível, proporcionando resultados satisfatórios às reais necessidades de seus clientes.</p>  </div>
+        <div class="col-md-6">
+        <img src="img/integration.jpg">
+        </div>    
+    </div>
         <div class="row content-aside">
             <div class="col-sm-6 col-md-6 ">
             <a href="#" data-toggle="modal" data-target="#myModal">
